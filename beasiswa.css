@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif; /* Font untuk teks */
+    background-color: #f4f4f4; /* Latar belakang abu-abu muda */
+    margin: 0; /* Menghilangkan margin */
+    padding: 20px; /* Padding di dalam body */
+}
+
+h1 {
+    text-align: center; /* Teks di tengah */
+    color: #333; /* Warna teks */
+    margin-bottom: 20px; /* Jarak bawah */
+}
+
+table {
+    width: 100%; /* Lebar tabel 100% */
+    max-width: 800px; /* Lebar maksimum tabel */
+    border-collapse: collapse; /* Menghilangkan celah antara batas tabel */
+    margin: 0 auto 20px; /* Memusatkan tabel dan memberi jarak bawah */
+    background-color: white; /* Latar belakang putih untuk tabel */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Bayangan lembut untuk tabel */
+}
+
+th, td {
+    padding: 12px; /* Padding di dalam sel */
+    text-align: left; /* Teks rata kiri */
+    border: 1px solid #ccc; /* Batas sel */
+}
+
+th {
+    background-color: #007bff; /* Latar belakang biru untuk header */
+    color: white; /* Warna teks putih untuk header */
+}
+
+tr:hover {
+    background-color: #f1f1f1; /* Latar belakang abu-abu muda saat hover */
+}
+
+button {
+    padding: 10px 15px; /* Padding di dalam tombol */
+    background-color: #5cb85c; /* Warna hijau untuk tombol */
+    border: none; /* Tanpa batas */
+    border-radius: 4px; /* Sudut bulat */
+    color: white; /* Warna teks putih */
+    font-size: 16px; /* Ukuran font */
+    cursor: pointer; /* Tangan saat hover */
+    display: block; /* Mengatur tombol menjadi block */
+    margin: 20px auto; /* Memusatkan tombol dengan jarak atas dan bawah */
+}
+
+button:hover {
+    background-color: #4cae4c; /* Warna hijau lebih gelap saat hover */
+}
